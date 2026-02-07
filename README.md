@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Repo](https://github.com/suzubu/product-preview-card-component-main)
+- Solution URL: [Repo](https://github.com/suzubu/four-card-feature-section-master)
 - Live Site URL: [Live Site](https://suzubu.github.io/four-card-feature-section-master/)
 
 ## My process
