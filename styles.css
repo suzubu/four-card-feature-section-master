@@ -3,13 +3,13 @@
 /* CSS Variables */
 :root {
   /* Colours */
-  --red: #ea5353;
-  --cyan: #45d3d3;
-  --orange: #fcaf4a;
-  --blue: #549ef2;
-  --grey-500: #4c4e61;
-  --grey-400: #697077;
-  --white: #ffffff;
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+  --grey-500: hsl(234, 12%, 34%);
+  --grey-400: hsl(210, 6%, 44%);
+  --white: hsl(0, 0%, 100%);
 
   /* Font */
   --font-primary: "Poppins", sans-serif;
@@ -26,6 +26,11 @@
   --card-min-height: 15rem;
   --card-padding: 2rem;
   --card-border-radius: 0.5rem;
+
+  /* Shadows */
+  --shadow-card:
+    0 2px 4px rgba(108, 112, 137, 0.08), 0 8px 16px rgba(108, 112, 137, 0.12),
+    0 16px 32px rgba(108, 112, 137, 0.18);
 }
 
 /* Base Styles */
@@ -96,12 +101,7 @@ h3 {
   padding: var(--card-padding);
   margin: 0 auto var(--spacing-lg);
   border-radius: var(--card-border-radius);
-  box-shadow:
-    0 1px 1px hsl(212 86% 6% / 0.075),
-    0 2px 2px hsl(0deg 0% 0% / 0.075),
-    0 4px 4px hsl(0deg 0% 0% / 0.075),
-    0 8px 8px hsl(0deg 0% 0% / 0.075),
-    0 16px 16px hsl(0deg 0% 0% / 0.075);
+  box-shadow: var(--shadow-card);
 }
 
 .card p {
